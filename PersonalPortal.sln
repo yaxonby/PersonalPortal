@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalPortal", "PersonalPortal.csproj", "{B44C7929-7F66-41BF-AAE5-A1B2031851AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBRepository", "DBRepository\DBRepository.csproj", "{023E50BB-AC55-45FE-8C76-EF8F9B748C5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{DF83764A-1749-4CCE-8DDD-D6BEC2518ED8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B44C7929-7F66-41BF-AAE5-A1B2031851AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44C7929-7F66-41BF-AAE5-A1B2031851AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44C7929-7F66-41BF-AAE5-A1B2031851AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44C7929-7F66-41BF-AAE5-A1B2031851AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023E50BB-AC55-45FE-8C76-EF8F9B748C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023E50BB-AC55-45FE-8C76-EF8F9B748C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023E50BB-AC55-45FE-8C76-EF8F9B748C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023E50BB-AC55-45FE-8C76-EF8F9B748C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF83764A-1749-4CCE-8DDD-D6BEC2518ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF83764A-1749-4CCE-8DDD-D6BEC2518ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF83764A-1749-4CCE-8DDD-D6BEC2518ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF83764A-1749-4CCE-8DDD-D6BEC2518ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
