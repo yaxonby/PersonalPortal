@@ -1,4 +1,6 @@
-﻿public abstract class BaseRepository
+﻿using DBRepository.Interfaces;
+
+public abstract class BaseRepository
 {
     protected string ConnectionString { get; }
     protected IRepositoryContextFactory ContextFactory { get; }

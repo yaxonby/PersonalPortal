@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DBRepository.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 public class RepositoryContextFactory : IRepositoryContextFactory
 {
