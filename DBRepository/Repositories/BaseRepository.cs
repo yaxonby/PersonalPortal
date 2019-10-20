@@ -1,12 +1,16 @@
 ﻿using DBRepository.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
-public abstract class BaseRepository
+namespace DBRepository.Repositories
 {
-    protected string ConnectionString { get; }
-    protected IRepositoryContextFactory ContextFactory { get; }
-    public BaseRepository(string connectionString, IRepositoryContextFactory contextFactory)
+    public abstract class BaseRepository
     {
-        ConnectionString = connectionString;
-        ContextFactory = contextFactory;
+        protected string ConnectionString { get; }
+		protected IRepositoryContextFactory ContextFactory { get; }
+		public BaseRepository(string connectionString, IRepositoryContextFactory contextFactory)
+        {
+            ConnectionString = connectionString;
+			ContextFactory = contextFactory;
+        }
     }
 }

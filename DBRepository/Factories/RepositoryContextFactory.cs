@@ -1,13 +1,16 @@
 ﻿using DBRepository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-public class RepositoryContextFactory : IRepositoryContextFactory
+namespace DBRepository
 {
-    public RepositoryContext CreateDbContext(string connectionString)
-    {
-        var optionsBuilder = new DbContextOptionsBuilder<RepositoryContext>();
-        optionsBuilder.UseSqlServer(connectionString);
+	public class RepositoryContextFactory : IRepositoryContextFactory
+	{
+		public RepositoryContext CreateDbContext(string connectionString)
+		{
+			var optionsBuilder = new DbContextOptionsBuilder<RepositoryContext>();
+			optionsBuilder.UseSqlServer(connectionString);
 
-        return new RepositoryContext(optionsBuilder.Options);
-    }
+			return new RepositoryContext(optionsBuilder.Options);
+		}
+	}
 }
